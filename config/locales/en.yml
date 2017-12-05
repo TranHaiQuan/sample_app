@@ -8,7 +8,11 @@ en:
       home_link_page: "Home"
       help_link_page: "Help"
       login_link_page: "Log in"
-
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
     footer:
       the: "The "
       ror_tut: "Ruby on Rails Tutorial"
@@ -29,22 +33,47 @@ en:
 
     help:
       help_title: "Help"
-      help_page: "Help Page"
-      help_intro: "This is help page"
+      help-page: "Help Page"
+      help-intro: "This is help page"
 
     contact:
       contact_title: "Contact"
-      contact_page: "Contact Page"
-      contact_intro: "Contact the Ruby on Rails Tutorial about the sample app at the "
-      contact_link_text: "contact page"
+      contact-page: "Contact Page"
+      contact-intro: "Contact the Ruby on Rails Tutorial about the sample app at the "
+      contact-link-text: "contact page"
 
     about:
       about_title: "About"
-      about_page: "About Page"
-      about_intro: "This is about page"
+      about-page: "About Page"
+      about-intro: "This is about page"
 
   users:
     new:
       signup_title: "Sign up"
-      signup_page: "Sign up"
-      signup_intro: "This is sign up page"
+      signup-page: "Sign up"
+      signup-intro: "This is sign up page"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      create_account: "Create new account"
+
+  shared:
+    error_messages:
+      title: "The form contain "
+      error: "error"
+
+  sessions:
+    new:
+      login: "Log in"
+      email: "email"
+      password: "password"
+      new_user: "New user?"
+      signup_now: "Sign up now!"
+
+  controllers:
+    sessions_controller:
+      error_messages: "Invalid email/password combination"
+
+    users_controller:
+      wellcome: "Wellcome to the Sample Apppp"
