@@ -46,5 +46,15 @@ en:
   users:
     new:
       signup_title: "Sign up"
-      signup_page: "Sign up"
-      signup_intro: "This is sign up page"
+      signup-page: "Sign up"
+      signup-intro: "This is sign up page"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      create_account: "Create new account"
+
+  shared:
+    error_messages:
+      title: "The form contain "
+      error: "error"
