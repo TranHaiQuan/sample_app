@@ -1,1 +1,8 @@
-<h1>Home Page</h1>
+  <div class="center jumbotron">
+    <h1><%= t ".wellcome" %></h1>
+    <h2><%= t ".be-intro" %><a href="http://www.railstutorial.org/">
+    <%= t ".link-tut" %></a> <%= t ".end-intro" %>.</h2>
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary", locale: "en" %>
+  </div>
+  <%= link_to image_tag("https://vignette.wikia.nocookie.net/theslenderman/images/5/5c/Logo-unity-3d-engine.png/revision/latest?cb=20160930205242",
+  alt: "unity logo"), "https://unity3d.com/" %>

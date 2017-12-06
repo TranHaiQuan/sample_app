@@ -30,4 +30,34 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  layouts:
+    footer:
+      the: "The "
+      ror-tut: "Ruby on Rails Tutorial"
+      by: "by"
+      news-link-text: "News"
+
+  static_pages:
+    home:
+      wellcome: "Wellcome to the SAMPLE APP"
+      be-intro: "This is "
+      link-tut: "Ruby on Rails Tutorial"
+      end-intro: "sample application"
+
+    help:
+      help-page: "Help Page"
+      help-intro: "This is help page"
+
+    contact:
+      contact-page: "Contact Page"
+      contact-intro: "Contact the Ruby on Rails Tutorial about the sample app at the "
+      contact-link-text: "contact page"
+
+    about:
+      about-page: "About Page"
+      about-intro: "This is about page"
+
+  users:
+    new:
+      signup-page: "Sign up"
+      signup-intro: "This is sign up page"
