@@ -52,29 +52,39 @@ en:
   static_pages:
     home:
       wellcome: "Wellcome to the SAMPLE APP"
-      be-intro: "This is "
-      link-tut: "Ruby on Rails Tutorial"
-      end-intro: "sample application"
-
-    help:
-      help-page: "Help Page"
-      help-intro: "This is help page"
-
-    contact:
-      contact-page: "Contact Page"
-      contact-intro: "Contact the Ruby on Rails Tutorial about the sample app at the "
-      contact-link-text: "contact page"
-
-    about:
-      about-page: "About Page"
-      about-intro: "This is about page"
-
-  users:
-    new:
-      signup-page: "Sign up"
-      signup-intro: "This is sign up page"
       be_intro: "This is "
       link_tut: "Ruby on Rails Tutorial"
       end_intro: "sample application"
       signup_link_page: "Sign up now!"
       alt_logo: "Logo Unity"
+    help:
+      help_title: "Help"
+      help-page: "Help Page"
+      help-intro: "This is help page"
+
+    contact:
+      contact_title: "Contact"
+      contact-page: "Contact Page"
+      contact-intro: "Contact the Ruby on Rails Tutorial about the sample app at the "
+      contact-link-text: "contact page"
+
+    about:
+      about_title: "About"
+      about-page: "About Page"
+      about-intro: "This is about page"
+
+  users:
+    new:
+      signup_title: "Sign up"
+      signup-page: "Sign up"
+      signup-intro: "This is sign up page"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      create_account: "Create new account"
+
+  shared:
+    error_messages:
+      title: "The form contain "
+      error: "error"
