@@ -33,20 +33,20 @@ footer {
   color: $gray-light;
   margin-top: 45px;
   padding-top: 5px;
-}
-footer a:hover {
-  color: gray-darker;
-}
-footer small {
-  float: left;
-}
-footer ul {
-  float: right;
-  list-style: none;
-}
-footer ul li {
-  float: left;
-  margin-left: 15px;
+  a:hover {
+    color: gray-darker;
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
 p {
   font-size: 1.1em;
@@ -60,9 +60,9 @@ textarea {
 }
 .center {
   text-align: center;
-}
-.center h1 {
-  margin-bottom: 10px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
 #logo {
   color: $white;
@@ -72,22 +72,8 @@ textarea {
   letter-spacing: -1px;
   margin-right: 10px;
   padding-top: 9px;
-}
-#logo.hover {
-  color: $orange;
-  text-decoration: none;
-}
-@mixin box_sizing
-{
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.debug_dump
-{
-  clear: both;
-  float: left;
-  width: 100%;
-  margin-top: 45px;
-  @include box_sizing;
+  &:hover {
+    color: $orange;
+    text-decoration: none;
+  }
 }
