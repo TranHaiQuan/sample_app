@@ -1,3 +1,17 @@
 <% provide :title, t(".signup_title") %>
-<h1><%= t ".signup_page" %></h1>
-<p><%= t ".signup_intro" %></p>
+<h1><%= t ".signup-page" %></h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for @user do |f| %>
+      <%= f.lable :name %>
+      <%= f.text_field :name %>
+      <%= f.lable :email %>
+      <%= f.text_field :email %>
+      <%= f.lable :password %>
+      <%= f.text_field :password %>
+      <%= f.lable :password_confirmation %>
+      <%= f.text_field :password_confirmation %>
+      <%= f.submit "Create my account", class: "btn btn-primary"%>
+    <% end %>
+  </div>
+</div>
