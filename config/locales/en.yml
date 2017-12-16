@@ -51,11 +51,22 @@ en:
       signup_title: "Sign up"
       signup-page: "Sign up"
       signup-intro: "This is sign up page"
+      create_account: "Create new account"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       password_confirmation: "Confirmation"
-      create_account: "Create new account"
+    edit:
+      edit_title: "Edit user"
+      save_change_button: "Save changes"
+      edit_page: "Update your profile"
+      change: "Change"
+    index:
+      all_user: "All users"
+    user:
+      delete: "Delete"
+      confirm: "Are you sure?"
 
   shared:
     error_messages:
@@ -77,3 +88,6 @@ en:
 
     users_controller:
       wellcome: "Wellcome to the Sample App"
+      profile_update: "Profile updated"
+      please_login: "Please log in"
+      deleted: "User Deleted!"
