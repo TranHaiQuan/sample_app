@@ -72,6 +72,12 @@ en:
     error_messages:
       title: "The form contain "
       error: "error"
+  user_mailer:
+    account_activation:
+      sample_app: "Sample App"
+      hi: "Hi"
+      wellcome: "Wellcome to the Sample App! Click on the link below to active your account:"
+      active: "Active"
 
   sessions:
     new:
@@ -85,9 +91,12 @@ en:
   controllers:
     sessions_controller:
       error_messages: "Invalid email/password combination"
-
+      check_mail: "Account not activated. Please check your email for the activation link"
     users_controller:
-      wellcome: "Wellcome to the Sample App"
       profile_update: "Profile updated"
       please_login: "Please log in"
       deleted: "User Deleted!"
+      check_mail: "Please check your email to active your account"
+    account_activations_controller:
+      account_activated: "Account activated"
+      invalid_active: "Invalid activation link"
