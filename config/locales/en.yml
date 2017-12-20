@@ -1,33 +1,50 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  application_helper:
+    base_title: "Ruby on Rails Tutorial Sample App"
+
+  layouts:
+    header:
+      home_name_link_page: "SAMPLE APP"
+      home_link_page: "Home"
+      help_link_page: "Help"
+      login_link_page: "Log in"
+
+    footer:
+      the: "The "
+      ror_tut: "Ruby on Rails Tutorial"
+      by: "by"
+      news_link_text: "News"
+      about_link_page: "About"
+      contact_link_page: "Contact"
+      michael_hartl: "Michael Hartl"
+
+  static_pages:
+    home:
+      wellcome: "Wellcome to the SAMPLE APP"
+      be_intro: "This is "
+      link_tut: "Ruby on Rails Tutorial"
+      end_intro: "sample application"
+      signup_link_page: "Sign up now!"
+      alt_logo: "Logo Unity"
+
+    help:
+      help_title: "Help"
+      help_page: "Help Page"
+      help_intro: "This is help page"
+
+    contact:
+      contact_title: "Contact"
+      contact_page: "Contact Page"
+      contact_intro: "Contact the Ruby on Rails Tutorial about the sample app at the "
+      contact_link_text: "contact page"
+
+    about:
+      about_title: "About"
+      about_page: "About Page"
+      about_intro: "This is about page"
+
+  users:
+    new:
+      signup_title: "Sign up"
+      signup_page: "Sign up"
+      signup_intro: "This is sign up page"

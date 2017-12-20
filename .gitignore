@@ -23,3 +23,6 @@
 .byebug_history
 # Ignore Spring files
 /spring/*.pid
+
+# Ignore database.yml config
+config/database.yml
