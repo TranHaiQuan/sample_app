@@ -13,6 +13,7 @@ en:
       profile: "Profile"
       settings: "Settings"
       log_out: "Log out"
+      micropost_feed: "Micropost Feed"
     footer:
       the: "The "
       ror_tut: "Ruby on Rails Tutorial"
@@ -72,6 +73,12 @@ en:
     error_messages:
       title: "The form contain "
       error: "error"
+    user_info:
+      view_profile: "View my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
   user_mailer:
     account_activation:
       sample_app: "Sample App"
@@ -105,6 +112,11 @@ en:
       password: "Password"
       password_confirmation: "Confirmation"
       update: "Update password"
+  microposts:
+    micropost:
+      posted: "Posted"
+      delete: "Delete"
+      you_sure: "You sure?"
 
   controllers:
     sessions_controller:
@@ -124,3 +136,10 @@ en:
       non_empty: "can't be empty"
       reseted: "Password has been reset"
       expired: "Password reset has expired."
+    application_controller:
+      please_login: "Please log in"
+      created_post: "Micropost created!"
+      deleted_post: "Micropost deleted"
+  models:
+    micropost:
+      error_size: "should be less than 5MB"
